@@ -28,7 +28,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @AllArgsConstructor
-@RequiredArgsConstructor
+
 public class AuthServiceImpl implements AuthService{
 	@Autowired
 	private AuthenticationManager authenticationManager;
