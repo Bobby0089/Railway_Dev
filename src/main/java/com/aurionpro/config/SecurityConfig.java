@@ -71,7 +71,7 @@ public class SecurityConfig {
             		.requestMatchers("/actuator/**").permitAll()
                 // Public Endpoints
                 .requestMatchers("/user/Register").permitAll()
-                .requestMatchers("/auth/**").permitAll()
+                .requestMatchers("/auth/login").permitAll()
                 .requestMatchers("/urlapp/auth/**").permitAll()
                 .requestMatchers("/urlapp/transaction/**").permitAll()
                 .requestMatchers("/urlapp/query/**").permitAll()
