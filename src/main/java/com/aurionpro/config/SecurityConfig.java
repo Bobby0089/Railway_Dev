@@ -50,7 +50,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:4200",           // Angular dev
-                "https://www.your-angular-app.com" // Production Angular app
+               "https://flourishing-bonbon-d77f71.netlify.app" // Production Angular app
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
