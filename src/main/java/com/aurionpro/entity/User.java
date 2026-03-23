@@ -24,7 +24,6 @@ import lombok.RequiredArgsConstructor;
 @Entity
 @Table(name = "users")
 @AllArgsConstructor
-@NoArgsConstructor 
 @Data
 public class User {
 
